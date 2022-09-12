@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO-DO APP</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <!-- Header -->
+        <h1>MY TO-DO APP</h1>
+        <!-- Input form to add new to do -->
+        <section class="todoForm">
+          <label for="addNew"><strong>ADD A NEW TO-DO</strong></label>
+          <input type="text" name="addNew" id="todoInput" placeholder="Something you need to do.." />
+          <button class="addBtn">ADD</button>
+        </section>
+      </div>
+      
+      <!-- To do list -->
+      <div class="todoList">
+        <ul id="todoUl">
+          
+        </ul>
+      </div>
+    </div>
+
+    <!-- script -->
+    <script src="script.js"></script>
+  </body>
+</html>
